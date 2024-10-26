@@ -5,12 +5,9 @@ CFLAGS = -Wall -Wextra -g -std=c99 $(OPT) -pedantic
 MAIN = snake
 
 SRC_FILES = $(wildcard *.c)
-OBJS_FILES = $(SRC_CFILES:.c = .o)
+OBJS_FILES = $(SRC_FILES:.c=.o)
 
-all: $(proj) 
-
-default: 
-	@echo "No project selected"
+all: $(MAIN)
 
 $(MAIN): $(OBJS_FILES)
 	$(CC) $(CFLAGS) -o $(MAIN).exe $(OBJS_FILES) $(LIBS)
@@ -18,7 +15,7 @@ $(MAIN): $(OBJS_FILES)
 .c.o:
 	$(CC) $(CFLAGS) -c $< -o $@
 
-clean_snake: 
+clean: 
 	$(RM) *.o *~ $(MAIN).exe
 
 
