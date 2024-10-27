@@ -8,8 +8,9 @@
 
 #define SDL_MAIN_HANDLED
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 
-#define GRID_DIM 1200
+#define GRID_DIM 700
 
 enum{
     SNAKE_UP,

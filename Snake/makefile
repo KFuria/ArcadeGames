@@ -1,6 +1,6 @@
 CC = gcc
 OPT = -O3
-LIBS = -lmingw32 -lSDL2main -lSDL2
+LIBS = -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf
 CFLAGS = -Wall -Wextra -g -std=c99 $(OPT) -pedantic
 MAIN = snake
 
