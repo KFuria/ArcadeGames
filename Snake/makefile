@@ -18,4 +18,3 @@ $(MAIN): $(OBJS_FILES)
 clean: 
 	$(RM) *.o *~ $(MAIN).exe
 
-

@@ -7,6 +7,7 @@ Game_t * game_init(uint16_t grid_size, uint16_t start_size){
     game->running = true;
     game->pause = false;
     game->reset = false;
+    game->crash = false;
 
     snake_init(game); 
     food_init(game);   

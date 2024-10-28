@@ -122,7 +122,7 @@ void render_score(SDL_Renderer * renderer, Game_t * game, int x, int y, TTF_Font
     text_height = surface->h;
     SDL_FreeSurface(surface);
     t_rect1.x = x;
-    t_rect1.y = y + t_rect.y + 5;
+    t_rect1.y = y + t_rect.y;
     t_rect1.w = text_width;
     t_rect1.h = text_height;
     SDL_RenderCopy(renderer, t_texture1, NULL, &t_rect1);
