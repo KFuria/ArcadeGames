@@ -23,6 +23,18 @@ This version of the game is made in Python using pygame.
 
 [Soft drop](https://tetris.wiki/Drop#Soft_drop): 1 point per line
 
+### Key Bindings:
+ 
+[p]          - pause
+
+[c]          - continue/resume
+
+[r]          - reset
+
+[←][→][↓]    - Move Tetromino left, right or down
+
+[↑]          - Rotate Tetromino clockwise
+
 ### Resources and References:
 Nick Koumaris, Python-Tetris-Game-Pygame, GitHub repository,
 <https://github.com/educ8s/Python-Tetris-Game-Pygame>
