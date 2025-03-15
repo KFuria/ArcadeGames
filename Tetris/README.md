@@ -15,7 +15,14 @@ This version of the game is made in Python using pygame.
 - Following the Standard Rotation System from <https://tetris.fandom.com/wiki/SRS>, when unobstructed, the tetrominoes all appear to rotate purely about a single point. These apparent rotation centers are shown as circles in the diagram. 
 
 ### Scoring: 
-1 line cleared:  100 points 
+1 line cleared:  100 points
+
 2 lines cleared: 300 points
+
 3 lines cleared: 500 points 
+
 [Soft drop](https://tetris.wiki/Drop#Soft_drop): 1 point per line
+
+### Resources and References:
+Nick Koumaris, Python-Tetris-Game-Pygame, GitHub repository,
+<https://github.com/educ8s/Python-Tetris-Game-Pygame>
