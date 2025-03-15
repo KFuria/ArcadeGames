@@ -11,12 +11,12 @@ This game is made using C and SDL2.
 - Colliding with a wall or the body of the snake ends the game. 
 - The score will increment every time the snake eats the food.
 
-### Player Inputs:
+### Requirements:
 - The player should be able to control the snake using the arrow keys
 - The player should be able to pause, resume and reset the game
 - The game should pause once ended, and the player can only continue by resetting the game. 
 - The player should be able to exit the game whenever needed.
-- Once the game ends, the score should be saved as the "last score" and reset to 0 when the player resets the game.   
+- Once the game ends, the score should reset to 0 and be saved as the "last score" when the player resets the game.   
     
 ### Key Bindings:
  
