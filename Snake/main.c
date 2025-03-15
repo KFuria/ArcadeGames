@@ -148,7 +148,7 @@ int main(){
     }
 
     TTF_Init();
-    TTF_Font *font = TTF_OpenFont("BrokenConsole.ttf", 20);
+    TTF_Font *font = TTF_OpenFont("../Fonts/BrokenConsole.ttf", 20);
     if (font == NULL) {
         fprintf(stderr, "error: font not found\n");
         exit(EXIT_FAILURE);
