@@ -36,8 +36,8 @@ This version of the game is made in Python using pygame.
 [↑]          - Rotate Tetromino clockwise
 
 ### Screenshots
-![Screenshot](images/screenshot1.png?raw=true)
-![Screenshot](images/screenshot2.png)
+![Screenshot](images/Screenshot1.png)
+![Screenshot](images/Screenshot2.png)
 
 ### Resources and References:
 Nick Koumaris, Python-Tetris-Game-Pygame, GitHub repository,
