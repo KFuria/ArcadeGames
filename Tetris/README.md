@@ -36,7 +36,7 @@ This version of the game is made in Python using pygame.
 [↑]          - Rotate Tetromino clockwise
 
 ### Screenshots
-![Screenshot](images/screenshot1.png)
+![Screenshot](images/screenshot1.png?raw=true)
 ![Screenshot](images/screenshot2.png)
 
 ### Resources and References:
